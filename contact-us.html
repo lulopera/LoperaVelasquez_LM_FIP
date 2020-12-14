@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Alpaca Amigurumi Store</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+    <div id="topBar"></div><!--end topBar-->
+     <div id="siteContainer">
+        <h1 class="hidden">Alpaca Amigurumi Store contact-page</h1>
+
+        <header id="mainHeader">
+            <img src="images/alpaca-logo.jpg" width="200" height="150" alt="Alpaca logo">
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about-us.html">ABOUT US</a></li>
+                   <li><a href="shop.html">SHOP</a></li>
+                   <li class="selected"><a href="contact-us.html">CONTACT</a></li>
+                </ul>
+             </nav>      
+        </header>
+
+        <div id="contactInfo">
+            <section id="contactImage">
+            <h2>Contact Us</h2>
+        	<img src="images/happy-christmas.jpg" width="440" height="600" alt="Angels on Christmas Tree">
+             </section>>     
+
+            <section id="contactArea">
+                <h3 class="hidden">Contact Form</h3>
+                <p id="contactText">If you want to know more about Alpaca Amigurumi Store please contact us:
+            </p> 
+
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+            </section>
+            </div>  
+
+       <footer id="mainFooter">
+            <nav id="footerNav">
+                <h2 class="hidden">Footer Navigation</h2>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about-us.html">ABOUT US</a></li>
+                   <li><a href="shop.html">SHOP</a></li>
+                   <li><a href="contact-us.html">CONTACT</a></li>
+                </ul>
+             </nav>      
+            <div id="copyRight"><p>© 2020 Maria Lopera</p></div>
+        </footer>
+    </div>
+
+<script src="js/main.js"></script>    
+</body>
+</html>
