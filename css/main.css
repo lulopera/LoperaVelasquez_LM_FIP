@@ -88,6 +88,9 @@ a:hover, a:active
 	height: 100px;
 	margin-top: 45px;
 	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 #mainNav ul
@@ -588,5 +591,47 @@ input, textarea
 	margin-right: 150px;
 	font-size: 20px;
 
+}
+
+.socialMedia
+{
+	height: 45px;
+	/*margin-left: auto;*/
+	margin-top: 15px;
+	margin-right: 70px;
+	/*margin-left: 80px;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}
+
+#iconNav img
+{
+	width: 30px;
+	height: 30px;
+}
+
+#iconNav
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#iconNav li
+{
+	display: inline;
+	margin-right: 10px;
+}
+
+#iconNav li a
+{
+	filter: grayscale(100%);
+}
+
+#iconNav li a:hover
+{
+	filter: grayscale(0%);
 }
 
